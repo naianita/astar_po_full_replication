@@ -11,7 +11,7 @@ This repository contains the implementation of **A*-Policy Optimization (A*-PO)*
 
 ## 📁 Files
 
-- `pag_astar_po_colab (1).ipynb` - Complete implementation notebook for Google Colab
+- `week5.ipynb` - Complete implementation notebook for Google Colab
 
 ## 🚀 Quick Start
 
@@ -53,6 +53,11 @@ If you encounter OOM errors, see the memory optimization settings in the noteboo
 - Decrease `max_new_tokens` and sequence lengths
 - Process fewer trajectories per epoch
 
-## 📝 License
+##Citation
 
-See repository license file for details.
+@article{hendrycksmath2021,
+  title={Measuring Mathematical Problem Solving With the MATH Dataset},
+  author={Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt},
+  journal={NeurIPS},
+  year={2021}
+}
