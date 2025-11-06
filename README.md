@@ -42,7 +42,6 @@ Adjust these parameters in the notebook cells based on your GPU memory availabil
 
 ## 📚 References
 
-- PAG Paper: Policy as Generative Verifier
 - MATH Dataset: [Hendrycks et al.](https://github.com/hendrycks/math)
 - Qwen Model: [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
 
@@ -60,4 +59,11 @@ If you encounter OOM errors, see the memory optimization settings in the noteboo
   author={Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt},
   journal={NeurIPS},
   year={2021}
+}
+
+@article{jiang2025pag,
+  title={PAG: Multi-Turn Reinforced LLM Self-Correction with Policy as Generative Verifier},
+  author={Jiang, Yuhua and Xiong, Yuwen and Yuan, Yufeng and Xin, Chao and Xu, Wenyuan and Yue, Yu and Zhao, Qianchuan and Yan, Lin},
+  journal={arXiv preprint arXiv:2506.10406},
+  year={2025}
 }
