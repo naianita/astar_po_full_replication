@@ -9,16 +9,6 @@ This repository contains the implementation of **A*-Policy Optimization (A*-PO)*
 - **Algorithm**: A*-PO (A* Policy Optimization)
 - **Environment**: Optimized for Google Colab with T4 GPU (10GB memory constraint)
 
-## 📁 Files
-
-- `week5.ipynb` - Complete implementation notebook for Google Colab
-
-## 🚀 Quick Start
-
-1. Open the notebook in Google Colab
-2. Enable GPU: Runtime → Change runtime type → GPU (T4)
-3. Run all cells
-4. Training will take approximately 2-3 hours
 
 ## 📊 Features
 
@@ -45,12 +35,6 @@ Adjust these parameters in the notebook cells based on your GPU memory availabil
 - MATH Dataset: [Hendrycks et al.](https://github.com/hendrycks/math)
 - Qwen Model: [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
 
-## ⚠️ Note on Out of Memory Errors
-
-If you encounter OOM errors, see the memory optimization settings in the notebook:
-- Reduce `train_size` and `max_prompts`
-- Decrease `max_new_tokens` and sequence lengths
-- Process fewer trajectories per epoch
 
 ##Citation
 
